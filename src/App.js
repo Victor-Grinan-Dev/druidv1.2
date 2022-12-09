@@ -1,3 +1,4 @@
+//import { ajaxGet } from "./services/services";
 
 function App() {
   return (
