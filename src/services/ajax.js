@@ -1,7 +1,6 @@
 import axios from "axios";
 import config from "./config";
 
-
 export const singleton = async () => {
   if (!singleton) {
     const tokenURL = config.drupal_url + "/session/token";
